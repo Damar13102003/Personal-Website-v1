@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-me</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -26,32 +27,50 @@
     </nav>
 
     <section class="contact">
-        <div>
-            <h2>Contact</h2>
-        </div>
-        
-        <div>
-            <form action="">
-            <table>
-                <tr>
-                    <td><label for="">Name</label></td>
-                    <td><input type="text" placeholder="enter a name"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Email</label></td>
-                    <td><input type="email" placeholder="enter email"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Pesan</label></td>
-                    <td><textarea name="text" placeholder="write a message"></textarea></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button type="submit">Send</button></td>
-                </tr>
-            </table>
-        </form>   
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <div class="contact-gml">
+                <form class="form" action="gmail">
+                    <div class="form-grp">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="enter a name">
+                    </div>
+                    <div class="form-grp">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="enter email">
+                    </div>
+                    <div class="form-grp">
+                        <label for="">message</label>
+                        <textarea name="text" placeholder="write a message"></textarea>
+                    </div>
+                    <div class="form-grp">
+                        <td><button type="submit">Send</button></td>
+                    </div>                    
+                </form>   
+            </div>
+            <div class="contact-icon">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>WhatsApp</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Gmail</p>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                    </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                </a>
+            </div>
         </div>
     </section>
+
+    <footer>
+        <p>© 2026 Damar</p>
+    </footer>
 </body>
 </html>
