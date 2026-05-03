@@ -10,20 +10,33 @@ html, body {
     background: #000017;
 }
 
+body a{
+    text-decoration: none;
+}
 
 /*NAVBAR*/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 5px 20px;
     background: rgb(18, 18, 18);
     color: rgb(255, 255, 255);
     position: relative;
 }
-
-.logo {
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.logo h1{
     font-size: 24px;
+    padding-left: 1.2rem;
+}
+
+.nav-logo img{
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .nav-links {
@@ -32,12 +45,20 @@ html, body {
 }
 
 .nav-links li {
-    margin-left: 20px;
+    margin-left: 1.2rem;
 }
-
 .nav-links a {
+    font-weight: bold;
+    padding: 1.2rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.active{
+    color: #424286;
+    border-bottom: 3px solid #ffffff;
+}
+.nav-links a:hover{
+    color: #424286;
 }
 
 /* HAMBURGER NAVBAR*/
@@ -142,6 +163,7 @@ html, body {
 }
 .content-img{
     display: flex;
+    padding: 1.2rem 3.5rem 0 0;
     justify-content: center;
     gap: 0.5rem;
 }
@@ -240,6 +262,7 @@ footer {
     text-align: center;
 }
 .contact h2{
+    color: #ffffff;
     padding: 1.2rem;
     margin-bottom: 1.2rem;
 }
