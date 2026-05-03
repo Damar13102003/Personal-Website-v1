@@ -1,7 +1,7 @@
 # Personal-Website-v1
 UI/UX website personal diri 
-1. terdapat foto dan gambar
-2. buat folder assets
-3. didalam folder assets buat folder untuk masing-masing halaman web
+1. buat folder projectnya
+2. buat folder assets, html, dan css
+3. dalam folder assets buat folder kembali seperti yang ada diatas
 
-Tampilan Website https://damar13102003.github.io/Personal-Website-v1/ 
+itu saja yang saya sampaikan terima kasih
