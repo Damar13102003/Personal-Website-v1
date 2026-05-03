@@ -4,4 +4,4 @@ UI/UX website personal diri
 2. buat folder assets, html, dan css
 3. dalam folder assets buat folder kembali seperti yang ada diatas
 
-itu saja yang saya sampaikan terima kasih
+itu saja yang saya sampaikan terima kasih, ini hanya awal karena masih akan update terus sampai web di hosting
